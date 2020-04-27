@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Perfect Playlist For You</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>How are you feeling today?</h1>
+  <a href="musicsecond.html"><img src="happy.JPEG" alt="happy"></a>
+  <a href="musicsecond.html"><img src="sad.JPEG" alt="sad"></a>
+  <a href="musicsecond.html"><img src="soso.JPEG" alt="soso"></a>
+
+  <div id="sidebar">
+    <ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="more.html">More Playlists</a></li>
+    </ul>
+      <div id="sidebar-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+  </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('#sidebar-btn').click(function(){
+    $('#sidebar').toggleClass('visible');
+  });
+});
+
+</script>
+
+<footer>
+  <p><strong>Perfect Playlist For You</strong><br/>ADDRESS. Seoul Foreign School<br/>EMAIL. <a href="mailto:angela.joo.22@seoulforeign.org">angela.joo.22@seoulforeign.org</a><br/>TEL. 82 +10 5494 1860</p>
+</footer>
+
+</html>
